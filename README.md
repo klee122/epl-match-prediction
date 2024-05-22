@@ -33,7 +33,7 @@ Use the `PredictResult` function to predict the outcome of a match between two t
 
 ```python
 PredictResult("Team A", "Team B", "m1")
-```python
+```
 ### 3. Plotting Heat Maps
 
 The `PlotHeatMap` function visualizes the distribution of match outcomes as a heat map. It is automatically called within the `PredictResult` function.
@@ -51,4 +51,4 @@ The `PlotHeatMap` function visualizes the distribution of match outcomes as a he
 
 ```bash
 pip install pandas matplotlib numpy jupyter openpyxl
-```
+bash```
