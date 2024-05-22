@@ -1,6 +1,6 @@
 # EPL Match Prediction
 
-This Jupyter Notebook provides a comprehensive framework for predicting English Premier League (EPL) match outcomes using various models. It includes functions for calculating goal expectancies, plotting heat maps, and visualizing predictions using Poisson distribution graphs.
+This Jupyter Notebook provides a framework for predicting English Premier League (EPL) match outcomes using various models based on mathematical modelling on football team's past performances. It includes functions for calculating goal expectancies, plotting heat maps, and visualizing predictions using Poisson distribution graphs.
 
 ## Overview
 
@@ -21,7 +21,7 @@ The notebook consists of the following main components:
 
 ### Visualization
 - **Heat Maps**: The `PlotHeatMap` function generates a heat map showing the probability distribution of match outcomes (home goals vs. away goals).
-- **Poisson Graphs**: (Optional) Functionality to visualize predictions using Poisson distribution graphs.
+- **Poisson Graphs**: The `PlotPoissonGraph` visualizes predictions using Poisson distribution graphs.
 
 ## Usage
 
@@ -51,4 +51,17 @@ The `PlotHeatMap` function visualizes the distribution of match outcomes as a he
 
 ```bash
 pip install pandas matplotlib numpy jupyter openpyxl
-bash```
+```
+
+### Running the Notebook
+
+1. Clone the repository or download the notebook file.
+2. Ensure the `EPL Analysis.xlsx` and `Strengths.xlsx` files are in the same directory as the notebook.
+3. Navigate to the directory containing the notebook.
+4. Start Jupyter Notebook:
+
+    ```bash
+    jupyter notebook
+    ```
+
+5. Open the `epl-prediction.ipynb` notebook and run the cells.
