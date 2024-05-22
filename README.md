@@ -33,3 +33,28 @@ Use the `PredictResult` function to predict the outcome of a match between two t
 
 ```python
 PredictResult("Team A", "Team B", "m1")
+
+### 3. Plotting Heat Maps
+The PlotHeatMap function visualizes the distribution of match outcomes as a heat map. It is automatically called within the PredictResult function.
+
+## Requirements
+- Python 3.x
+- Jupyter Notebook
+- Pandas
+- Matplotlib
+- NumPy
+
+Installation
+pip install pandas matplotlib numpy jupyter openpyxl
+Running the Notebook
+Clone the repository or download the notebook file.
+Ensure the EPL Analysis.xlsx and Strengths.xlsx files are in the same directory as the notebook.
+Navigate to the directory containing the notebook.
+Start Jupyter Notebook:
+bash
+Copy code
+jupyter notebook
+Open the epl-prediction.ipynb notebook and run the cells.
+
+```python
+PredictResult("Team A", "Team B", "m1")
